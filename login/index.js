@@ -12,3 +12,10 @@ function togglePassword() {
         lockedIcon.querySelector('img').src = "../img/lock-icon.png";
     }
 }
+
+function register(){
+    showLoading();
+    setTimeout(() => {
+        window.location.href = "../register/register.html";
+    }, 3000);
+}
