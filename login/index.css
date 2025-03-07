@@ -194,6 +194,47 @@ a:hover::after{
     text-indent: 42px;
 }
 
+/*Monitor 4K*/
+@media (min-width: 2560px){
+    .grid{
+        height: 700px;
+        width: 1500px;
+        margin-top: 32px;
+    }
+
+    h1{
+        font-size: 150px;
+        top: -80px;
+    }
+
+    .container input{
+        width: 800px;
+        height: 40px;
+        top: -64px;
+        margin: 0;
+    }
+
+    .enter-button{
+        width: 765px;
+        top: -57px;
+        height: 57px;
+    }
+
+    .container label{
+        left: -382px;
+        top: -117px;
+    }
+
+    .lock{
+        left: -382px;
+        top: -117px;
+    }
+
+    .support-field{
+        font-size: 30px;
+    }
+}
+
 
 /*Dispositivo Móvel G*/
 @media(max-width: 426px){
