@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <main class="grid">
+            <div class="container">
+                <h1>Login</h1>
+                <input type="email" id="email-field" class="input-email" placeholder="EXEMPLO@GMAIL.COM">
+                <label><img width="24px" src="../img/person-icon.png" alt="person-icon"></label>
+                <input type="password" id="password-field" class="input-password" placeholder="SENHA:1234567">
+                <button type="button" class="lock" id="locked" onclick="togglePassword()"><img width="24px" src="../img/lock-icon.png" alt="lock-icon"></button>
+                <button class="enter-button">Entrar</button>
+                <div class="support-field">
+                    <a href="#">Esqueci minha senha</a>
+                    <a href="#">Criar conta</a>
+                </div>
+            </div>
+        </main>
+    </form>
+</body>
+</html>
+
+<script src="index.js"></script>
