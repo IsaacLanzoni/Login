@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="../loading.css">
-    <title>Nada por aqui. (ainda..)</title>
+    <title>Login</title>
 </head>
 <body>
-    <div>
-        <button onclick="logout()"><img width="24px" src="../img/logout-icon.png" alt="logout-icon"></button>
-    </div>
+    <form>
+        <main class="grid">
+            <div class="container">
+                <h1>Registrar</h1>
+                <input type="email" id="email-field" class="input-email" placeholder="EXEMPLO@GMAIL.COM">
+                <label><img width="24px" src="../img/person-icon.png" alt="person-icon"></label>
+                <input type="password" id="password-field" class="input-password" placeholder="CRIAR SENHA">
+                <button type="button" class="lock" id="locked" onclick="togglePassword()"><img width="24px" src="../img/lock-icon.png" alt="lock-icon"></button>
+                <input type="password" id="confirm-password-field" class="input-confirm-password" placeholder="CONFIRMAR SENHA">
+                <button type="button" class="lock-two" id="locked-two" onclick="toggleConfirmPassword()"><img width="24px" src="../img/lock-icon.png" alt="lock-icon"></button>
+                <button class="register-button">Criar Conta</button>
+                <div class="support-field"> 
+                    <a href="#" onclick="enter()">Já tem uma conta? <span class="enter-button">Entrar</span></a>
+                </div>
+            </div>
+        </main>
+    </form>
 </body>
+
+
+
 </html>
 
 <script src="register.js"></script>
